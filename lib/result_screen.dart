@@ -39,19 +39,19 @@ class Result extends StatelessWidget {
             Column(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
           Text(
             "Gender : ${isMale ? "Male" : "Female"}",
-            style: Theme.of(context).textTheme.headline2,
+            style: Theme.of(context).textTheme.headline1,
           ),
           Text(
             "Result : ${result.toStringAsFixed(1)}",
-            style: Theme.of(context).textTheme.headline2,
+            style: Theme.of(context).textTheme.headline1,
           ),
           Text(
-            "Healthiness : $resultHealthiness ",
-            style: Theme.of(context).textTheme.headline2,
+            "Healthiness : $resultHealthiness ",textAlign: TextAlign.center,
+            style: Theme.of(context).textTheme.headline1,
           ),
           Text(
             "Age : $age",
-            style: Theme.of(context).textTheme.headline2,
+            style: Theme.of(context).textTheme.headline1,
           ),
         ]),
       )),

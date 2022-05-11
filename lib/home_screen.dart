@@ -60,14 +60,15 @@ class _MyHomePageState extends State<MyHomePage> {
                 width: double.infinity,
                 child: TextButton(
                   onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) {
-                      Result(
-                        age: age,
-                        result: 23.4  ,
-                        isMale: isMale,
-                      );
-                    }));
+                    Navigator.push(context, MaterialPageRoute(
+                      builder: (context) {
+                        return Result(
+                          age: age,
+                          result: 23.4,
+                          isMale: isMale,
+                        );
+                      },
+                    ));
                   },
                   child: const Text(
                     "Calculate",

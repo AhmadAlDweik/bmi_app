@@ -14,12 +14,17 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.teal,
         canvasColor: Colors.black,
-        iconTheme: const IconThemeData(color: Colors.white,size: 90),
+        iconTheme: const IconThemeData(color: Colors.white),
         textTheme: const TextTheme(
           headline2: TextStyle(
             fontSize: 25,
-            color: Colors.white,
+            color: Colors.black,
             fontWeight: FontWeight.bold,
+          ),
+          headline1: TextStyle(
+            fontSize: 40,
+            color: Colors.white,
+            fontWeight: FontWeight.w800,
           ),
         ),
       ),

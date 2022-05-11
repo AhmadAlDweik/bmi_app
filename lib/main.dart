@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'home_screen.dart';
 
 void main() => runApp(const MyApp());
@@ -15,6 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.teal,
         canvasColor: Colors.black,
+        iconTheme: const IconThemeData(color: Colors.white,size: 90),
         textTheme: const TextTheme(
           headline2: TextStyle(
             fontSize: 25,
